@@ -66,6 +66,8 @@ public class Archivio {
 					attesa(3);
 					break;
 				case "6":
+					System.out.println("Lettura in corso...");
+					attesa(2);
 					System.out.println( FileUtils.readFileToString(fileInfo, ENCODING) );
 					attesa(3);
 					break;
